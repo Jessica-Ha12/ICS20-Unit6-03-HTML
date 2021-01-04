@@ -2,7 +2,7 @@ const x = document.getElementById('mybtn')
 x.addEventListener('click', conclusion)
 x.addEventListener('click', myFunction)
 function conclusion () {
-  alert('Thank you for veritying your age!')
+  alert('Thank you for verifying your age!')
 }
 function myFunction () {
   let age = document.getElementById('age').value

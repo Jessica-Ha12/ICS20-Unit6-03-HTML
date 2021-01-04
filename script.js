@@ -7,7 +7,7 @@ function conclusion () {
 function myFunction () {
   let age = document.getElementById('age').value
   age = parseInt(age)
-  let respond;
+  let respond
   if (age >= 17) {
     respond = 'You can watch an R-rated movie alone.'
   } else if (age >= 13) {

@@ -1,4 +1,4 @@
-const x = document.getElementById('myBtn');
+const x = document.getElementById('mybtn');
 x.addEventListener('click', conclusion);
 x.addEventListener('click', myFunction);
 function conclusion () {
@@ -17,5 +17,5 @@ function myFunction () {
   } else {
     respond = "Uh... You're too young to for most things.";
   }
-  document.getElementById("demo").innerHTML = respond;
+  document.getElementById('demo').innerHTML = respond;
 }
